@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 properties([
     parameters([
-=======
 pipeline {
 
     agent any
