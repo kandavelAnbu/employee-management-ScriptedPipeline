@@ -17,7 +17,8 @@ node {
     def mvnHome = tool 'mavenConfigure'
 
     stage('Checkout') {
-        echo 'Source code checked out successfully.'
+        echo 'Checking out source code...'
+        checkout scm
     }
 
     stage('Build') {
